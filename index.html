@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Promptpedia — The Prompt Catalog</title>
+<meta name="description" content="A card-catalog library of 500+ AI prompts across every field." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="plate">
+      <span class="plate-eyebrow">Est. 2026 &middot; Vol. I</span>
+      <h1 class="plate-title">Promptpedia</h1>
+      <p class="plate-sub">A card catalog of AI prompts, filed by field &amp; framework.</p>
+      <button class="contribute-btn" id="contributeBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        Contribute a Prompt
+      </button>
+    </div>
+    <div class="plate-stats">
+      <div class="stat"><span class="stat-num" id="statTotal">—</span><span class="stat-label">prompts filed</span></div>
+      <div class="stat"><span class="stat-num" id="statCats">—</span><span class="stat-label">drawers</span></div>
+      <div class="stat"><span class="stat-num" id="statFrameworks">—</span><span class="stat-label">frameworks</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="reading-room">
+  <aside class="cabinet" id="cabinet">
+    <div class="cabinet-head">
+      <span class="cabinet-label">Card Cabinet</span>
+      <button class="drawer-btn active" data-category="" id="allDrawer">
+        <span class="drawer-tab-num">00</span>
+        <span class="drawer-tab-name">All Drawers</span>
+      </button>
+    </div>
+    <nav class="drawers" id="drawerList" aria-label="Category filters"></nav>
+
+    <div class="cabinet-head cabinet-head-fw">
+      <span class="cabinet-label">Framework Index</span>
+    </div>
+    <div class="framework-chips" id="frameworkChips"></div>
+  </aside>
+
+  <section class="catalog">
+    <div class="search-desk">
+      <div class="search-field">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search the catalog — e.g. &ldquo;resume&rdquo;, &ldquo;SQL&rdquo;, &ldquo;LinkedIn&rdquo;&hellip;" autocomplete="off" />
+        <button class="clear-btn" id="clearSearch" aria-label="Clear search" hidden>&times;</button>
+      </div>
+      <button class="shuffle-btn" id="shuffleBtn" title="Pull a random card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5"/><path d="M4 20L21 3"/><path d="M21 16v5h-5"/><path d="M15 15l6 6"/><path d="M4 4l5 5"/></svg>
+        Shuffle
+      </button>
+    </div>
+
+    <div class="results-strip">
+      <span id="resultsLabel">Loading catalog&hellip;</span>
+      <span class="breadcrumb" id="breadcrumb"></span>
+    </div>
+
+    <div class="card-grid" id="cardGrid" aria-live="polite"></div>
+
+    <div class="pager" id="pager"></div>
+
+    <div class="empty-state" id="emptyState" hidden>
+      <div class="empty-stamp">NOT FILED</div>
+      <p>No cards match that search. Try another term or clear the filters.</p>
+    </div>
+  </section>
+</main>
+
+<div class="card-overlay" id="cardOverlay" hidden>
+  <div class="card-full" id="cardFull" role="dialog" aria-modal="true">
+    <button class="overlay-close" id="overlayClose" aria-label="Close">&times;</button>
+    <div id="cardFullContent"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" hidden>Copied to clipboard</div>
+
+<footer class="colophon">
+  <p>Promptpedia &mdash; a free, static prompt library. 590 prompts across 18 fields.</p>
+  <p>Have a prompt worth filing? Email <a href="mailto:bigdog202224@gmail.com">bigdog202224@gmail.com</a> or use the Contribute button above.</p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
