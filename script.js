@@ -15,6 +15,8 @@ const els = {
   frameworkChips: document.getElementById("frameworkChips"),
   shuffleBtn: document.getElementById("shuffleBtn"),
   contributeBtn: document.getElementById("contributeBtn"),
+  updateBanner: document.getElementById("updateBanner"),
+  updateBannerClose: document.getElementById("updateBannerClose"),
   statTotal: document.getElementById("statTotal"),
   statCats: document.getElementById("statCats"),
   statFrameworks: document.getElementById("statFrameworks"),
@@ -137,6 +139,12 @@ function bindEvents() {
   });
 
   els.contributeBtn.addEventListener("click", openContributeForm);
+
+  if (els.updateBannerClose) {
+    els.updateBannerClose.addEventListener("click", () => {
+      els.updateBanner.style.display = "none";
+    });
+  }
 }
 
 function closeOverlay() {

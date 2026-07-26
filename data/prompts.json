@@ -4128,5 +4128,138 @@
     "title": "Image Editing Task: Recoloring",
     "framework": "TAG",
     "prompt": "Task: recoloring a room photo to show a different wall paint color realistically. Action: describe the exact change needed while keeping everything else in the image untouched. Goal: a seamless, realistic edit with no visible artifacts."
+  },
+  {
+    "id": 591,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Professional Summary Enhancement",
+    "framework": "CARE",
+    "prompt": "Generate a compelling professional summary for a marketing professional with 5 years of experience in digital marketing, highlighting success in driving online engagement and lead generation. Adapt the same approach for other professions and experience levels."
+  },
+  {
+    "id": 592,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Skill Highlighting",
+    "framework": "TAG",
+    "prompt": "Craft a list of key skills for a software developer resume, focusing on programming languages (such as Python and JavaScript), software development methodologies (such as Agile and Scrum), and relevant tools (such as Git and Docker)."
+  },
+  {
+    "id": 593,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Achievement Bullet Points",
+    "framework": "STAR",
+    "prompt": "Generate achievement-oriented bullet points for a sales manager's resume, highlighting accomplishments like exceeding sales targets, leading successful client negotiations, and implementing strategies that resulted in revenue growth."
+  },
+  {
+    "id": 594,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Industry-Specific Buzzwords",
+    "framework": "RTF",
+    "prompt": "Create industry-specific buzzwords and phrases suitable for a finance professional's resume, emphasizing expertise in financial analysis, risk management, and compliance with regulatory standards."
+  },
+  {
+    "id": 595,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Project Descriptions",
+    "framework": "STAR",
+    "prompt": "Draft concise project descriptions for an IT project manager's resume, showcasing successful project implementations, budget management, team leadership, and stakeholder communication."
+  },
+  {
+    "id": 596,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Education and Certifications Optimization",
+    "framework": "TAG",
+    "prompt": "Optimize the education and certifications section of a healthcare professional's resume, including relevant degrees, licenses, certifications (such as CPR certification), and ongoing professional development activities."
+  },
+  {
+    "id": 597,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Personal Statement Refinement",
+    "framework": "CARE",
+    "prompt": "Refine the personal statement section of a recent graduate's resume, emphasizing passion for the industry, relevant experiences from internships or projects, and career aspirations aligned with a company's mission."
+  },
+  {
+    "id": 598,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "ATS Resume Fixer",
+    "framework": "RTF",
+    "prompt": "Make my resume pass [Job Title] computer screening by adding exact keywords from the job posting. Remove fancy formatting that blocks scanning software. Use simple bullet points and standard section names. Apply the 2-page rule and show which file format works best.\n\nJob description: [Paste or attach Job Description]\nMy resume: [Paste or attach Resume]"
+  },
+  {
+    "id": 599,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Results-Based Bullet Writer",
+    "framework": "STAR",
+    "prompt": "Change my [Job Title] job duties into impressive results using the PAR method (Problem-Action-Result). Show how I solved problems, saved money, or improved processes. Write a comparison showing weak versus strong bullet examples.\n\nMy resume: [Paste or attach Resume]\nTarget role: [Paste or attach Job Description]"
+  },
+  {
+    "id": 600,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Value Proposition Summary",
+    "framework": "AIDA",
+    "prompt": "Write an opening summary for [Role] using the 30-second rule that makes recruiters want to read more. Start with years of experience and the biggest career achievement. Include key skills and clear career goals. Write 3 different versions for various experience levels and rate their appeal.\n\nMy resume: [Paste or attach Resume]\nJob target: [Paste or attach Job Description]"
+  },
+  {
+    "id": 601,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Skills Hierarchy Builder",
+    "framework": "TAG",
+    "prompt": "List my abilities for [Job Title] using the T-shaped skills model in order of what employers value most. Separate hard skills from soft skills. Remove old skills that would lower my chances, and add new ones from job trends. Show which skills match perfectly with job requirements.\n\nMy resume: [Paste or attach Resume]\nJob needs: [Paste or attach Job Description]"
+  },
+  {
+    "id": 602,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Leadership Impact Showcase",
+    "framework": "STAR",
+    "prompt": "Show my leadership wins for [Role Level] using the STAR method, including team sizes led and results achieved. Add examples of developing people and improving team performance. Create stories that prove I can handle bigger leadership roles.\n\nMy resume: [Paste or attach Resume]\nTarget job: [Paste or attach Job Description]"
+  },
+  {
+    "id": 603,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Career Pivot Helper",
+    "framework": "CRISPE",
+    "prompt": "Connect my work from [Current Field] to [New Industry] using the transferable skills bridge by showing how my skills solve their common problems. Research what challenges the new field faces and explain my relevant experience. Add learning steps that show a serious commitment to career change.\n\nMy resume: [Paste or attach Resume]\nNew goal: [Paste Target Role]"
+  },
+  {
+    "id": 604,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Education ROI Maximizer",
+    "framework": "CARE",
+    "prompt": "Format my educational details for [Career Stage] using the relevance filter, highlighting courses and projects that fit job needs. Include active certifications and ongoing learning. Connect academic work to real business value.\n\nMy resume: [Paste or attach Resume]\nRole focus: [Paste or attach Job Description]"
+  },
+  {
+    "id": 605,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Job Gap Builder",
+    "framework": "STAR",
+    "prompt": "Write a positive explanation for my work break between [Start Date] and [End Date] using the growth story framework, focusing on learning and development. Include volunteer work, courses taken, or projects completed during time off.\n\nMy timeline: [Paste Work History]\nTarget position: [Paste or attach Job Description]"
+  },
+  {
+    "id": 606,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Multi-Target Resume Creator",
+    "framework": "RISEN",
+    "prompt": "Create one resume template that works well for [Job A], [Job B], and [Job C] using the core-flex approach by finding shared requirements. Build sections that highlight different strengths for each job type. Include easy customization steps and a quick change checklist for different applications.\n\nMy resume: [Paste or attach your Resume]\nJob options: [Paste 3 Job Descriptions]"
+  },
+  {
+    "id": 607,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Project Portfolio Builder",
+    "framework": "STAR",
+    "prompt": "List my important projects for [Industry] using the impact storytelling method, showing goals set, work done, and results delivered. Include my exact role, tools used, and business impact created. Add teamwork examples and creative solutions found.\n\nMy projects: [Paste Project List]\nJob requirements: [Paste or attach Job Description]"
+  },
+  {
+    "id": 608,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Full ATS Resume Rewrite Walkthrough (Multi-Step)",
+    "framework": "RISEN",
+    "prompt": "Run a full multi-turn resume rewrite as an expert resume writer, one step at a time, waiting for my replies between steps:\n1) Adopt the persona of an expert resume writer experienced with FAANG hiring.\n2) Confirm the task: write a strong ATS-friendly resume proving I'm the best candidate, using the resume and job description I'll share. Don't edit yet.\n3) Set guardrails: never invent experience or results, avoid em dashes, and ask clarifying questions first.\n4) Pull major accomplishments from my performance reviews that fit the resume.\n5) Flag which of my existing bullet points read as tasks rather than accomplishments.\n6) Suggest ways to add measurable results or outcomes to weak bullet points.\n7) Suggest realistic metrics I could add to specific bullet points, then offer 2-3 stronger variations of each.\n8) Write an ATS- and human-readable skills section based on the updated resume.\n9) Write a 3-line objective statement from my top achievements and career goal, then tighten it further.\n10) Write a professional summary under three lines from my work experience, then tighten it further.\n11) Finally, roleplay as a modern ATS trained on Greenhouse/Lever/Taleo-style filtering logic: critically assess whether the finished resume would be shortlisted against the job description, give a yes/no verdict, and list at least 10 specific red or yellow flags if it would not be shortlisted."
+  },
+  {
+    "id": 609,
+    "category": "Resume Writing & ATS Optimization",
+    "title": "Personality-Driven Resume Builder Workflow",
+    "framework": "RISEN",
+    "prompt": "Run a two-phase resume-building session:\n\nPHASE 1 \u2014 Understanding Yourself:\n1) Ask me 10 questions about how I approach problems, teamwork, and deadlines, then summarize my professional working style in three lines.\n2) Take all my achievements, projects, and work experiences I share and store them as my base resume data set.\n\nPHASE 2 \u2014 Building the Resume:\n3) Adopt the persona of an expert resume writer who helps early-career professionals land roles at top companies, writing in a confident, human tone.\n4) From the job description I share, identify the 20 keywords and competencies my resume should reflect.\n5) Rewrite my bullet points from the base data set to naturally include those keywords without sounding forced.\n6) Review the draft against the job description and flag weak or unclear areas, suggesting ways to make achievements more measurable.\n\nBONUS \u2014 Resume Clusters: from the same base data set, create three tailored resume versions for three different target roles, each highlighting the most relevant achievements and skills for that role."
   }
 ]
