@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Promptpedia (Static Site)
 
 A card-catalog styled library of 590 AI prompts across 18 fields. This is a
@@ -77,6 +77,8 @@ manage — the JSON file *is* the database.
   one-time load of `data/prompts.json` (~220 KB), so it stays fast even
   on the free tiers of any host above.
 =======
+=======
+>>>>>>> de4b394 (solved the issue of prompt not featuring)
 # Promptpedia
 
 A card-catalog styled library of 500 AI prompts across 15 fields (productivity,
@@ -150,4 +152,3 @@ using `--reload`) to pick up the new cards.
   are stamped on each card.
 - Search is debounced client-side and hits `/api/prompts?q=...` server-side.
 - Fully responsive; the drawer sidebar collapses above the grid on mobile.
->>>>>>> cdb950d (Added resume prompts from k device)
